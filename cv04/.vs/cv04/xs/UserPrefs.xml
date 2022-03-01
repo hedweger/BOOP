@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{F8DF0F52-1458-48CF-8817-5D7E1B5FB098}|Default">
+  <MonoDevelop.Ide.ItemProperties.cv04 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="cv04/StringStat.cs">
+    <Files>
+      <File FileName="cv04/Program.cs" Line="27" Column="26" />
+      <File FileName="cv04/StringStat.cs" Line="30" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cv04" expanded="True">
+            <Node name="cv04" expanded="True">
+              <Node name="StringStat.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

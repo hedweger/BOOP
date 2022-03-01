@@ -1,0 +1,13 @@
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/bin/Debug/netcoreapp3.1/cv04.deps.json
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/bin/Debug/netcoreapp3.1/cv04.runtimeconfig.json
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/bin/Debug/netcoreapp3.1/cv04.runtimeconfig.dev.json
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/bin/Debug/netcoreapp3.1/cv04.dll
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/bin/Debug/netcoreapp3.1/cv04.pdb
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.csproj.AssemblyReference.cache
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.AssemblyInfoInputs.cache
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.AssemblyInfo.cs
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.csproj.CoreCompileInputs.cache
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.dll
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.pdb
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv04/cv04/obj/Debug/netcoreapp3.1/cv04.genruntimeconfig.cache
