@@ -1,0 +1,5 @@
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv05/obj/Debug/net6.0/cv05.csproj.AssemblyReference.cache
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv05/obj/Debug/net6.0/cv05.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv05/obj/Debug/net6.0/cv05.AssemblyInfoInputs.cache
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv05/obj/Debug/net6.0/cv05.AssemblyInfo.cs
+/Users/hadwoslol/Code/projects/hadwiger-oop/cv05/obj/Debug/net6.0/cv05.csproj.CoreCompileInputs.cache

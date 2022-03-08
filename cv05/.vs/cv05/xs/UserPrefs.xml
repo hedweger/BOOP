@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{7350E3C8-9B21-43A8-AD9F-9D081DF1EBC7}|Default">
+  <MonoDevelop.Ide.ItemProperties.cv05 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Personal.cs">
+    <Files>
+      <File FileName="obj/Debug/net6.0/cv05.GlobalUsings.g.cs" Line="2" Column="1" IsPinned="True" />
+      <File FileName="Personal.cs" Line="16" Column="2" />
+      <File FileName="Cars.cs" Line="15" Column="35" />
+      <File FileName="Program.cs" />
+      <File FileName="Truck.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cv05" expanded="True">
+            <Node name="cv05" expanded="True">
+              <Node name="Personal.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
