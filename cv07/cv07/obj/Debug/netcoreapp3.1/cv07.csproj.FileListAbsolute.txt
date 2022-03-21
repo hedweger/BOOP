@@ -1,0 +1,13 @@
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.csproj.AssemblyReference.cache
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.AssemblyInfoInputs.cache
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.AssemblyInfo.cs
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.csproj.CoreCompileInputs.cache
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/bin/Debug/netcoreapp3.1/cv07.deps.json
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/bin/Debug/netcoreapp3.1/cv07.runtimeconfig.json
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/bin/Debug/netcoreapp3.1/cv07.runtimeconfig.dev.json
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/bin/Debug/netcoreapp3.1/cv07.dll
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/bin/Debug/netcoreapp3.1/cv07.pdb
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.dll
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.pdb
+/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/Debug/netcoreapp3.1/cv07.genruntimeconfig.cache
