@@ -20,7 +20,7 @@
       "outputPath": "/Users/hadwiiis/Projects/VUT/hadwiger-oop/cv07/cv07/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hadwiiis/.config/NuGet/NuGet.Config"
+        "/Users/hadwiiis/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
