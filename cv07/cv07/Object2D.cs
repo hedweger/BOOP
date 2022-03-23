@@ -3,10 +3,7 @@ namespace cv07
 {
     public abstract class Object2D : I2D, IComparable
     {
-        public Object2D()
-        {
-            
-        }
+        
         public abstract double Area();
         public int CompareTo(object obj)
         {

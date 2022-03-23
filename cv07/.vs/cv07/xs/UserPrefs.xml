@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{7B6A087A-3E4A-438E-906E-61F6D3BA2152}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="cv07/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cv07/Extremes.cs">
     <Files>
       <File FileName="cv07/Program.cs" Line="18" Column="78" />
-      <File FileName="cv07/I2D.cs" Line="1" Column="1" />
-      <File FileName="cv07/Object2D.cs" Line="1" Column="1" />
+      <File FileName="cv07/I2D.cs" />
+      <File FileName="cv07/Object2D.cs" />
+      <File FileName="cv07/Extremes.cs" Line="14" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cv07" expanded="True">
             <Node name="cv07" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Extremes.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -3,7 +3,7 @@ namespace cv07
 {
     public class Extremes
     {
-        public static T Largest<T> (params T[] values) where T:IComparable
+        public static T Largest<T> (T[] values) where T:IComparable
         {
             T max = values[0];
             for (int i= 0; i < values.Length; i++) {
@@ -11,7 +11,7 @@ namespace cv07
             }
             return max;
         }
-        public static T Smallest<T>(params T[] values) where T : IComparable
+        public static T Smallest<T>(T[] values) where T : IComparable
         {
             T min = values[0];
             for (int i = 0; i < values.Length; i++)
