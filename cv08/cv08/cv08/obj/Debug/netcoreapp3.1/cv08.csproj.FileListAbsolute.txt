@@ -1,0 +1,14 @@
+D:\230252\hadwiger-oop\cv08\cv08\cv08\bin\Debug\netcoreapp3.1\cv08.exe
+D:\230252\hadwiger-oop\cv08\cv08\cv08\bin\Debug\netcoreapp3.1\cv08.deps.json
+D:\230252\hadwiger-oop\cv08\cv08\cv08\bin\Debug\netcoreapp3.1\cv08.runtimeconfig.json
+D:\230252\hadwiger-oop\cv08\cv08\cv08\bin\Debug\netcoreapp3.1\cv08.runtimeconfig.dev.json
+D:\230252\hadwiger-oop\cv08\cv08\cv08\bin\Debug\netcoreapp3.1\cv08.dll
+D:\230252\hadwiger-oop\cv08\cv08\cv08\bin\Debug\netcoreapp3.1\cv08.pdb
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.csproj.AssemblyReference.cache
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.GeneratedMSBuildEditorConfig.editorconfig
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.AssemblyInfoInputs.cache
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.AssemblyInfo.cs
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.csproj.CoreCompileInputs.cache
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.dll
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.pdb
+D:\230252\hadwiger-oop\cv08\cv08\cv08\obj\Debug\netcoreapp3.1\cv08.genruntimeconfig.cache
