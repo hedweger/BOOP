@@ -41,35 +41,35 @@
         }
       },
       {
-        "HashCode": -1886201699,
+        "HashCode": 1017778709,
         "Kind": "Components.Component",
-        "Name": "BOOProject.Pages.Counter",
+        "Name": "BOOProject.Pages.Index",
         "AssemblyName": "BOOProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BOOProject.Pages.Counter"
+          "Common.TypeName": "BOOProject.Pages.Index"
         }
       },
       {
-        "HashCode": -1242484749,
+        "HashCode": -1558241323,
         "Kind": "Components.Component",
-        "Name": "BOOProject.Pages.Counter",
+        "Name": "BOOProject.Pages.Index",
         "AssemblyName": "BOOProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BOOProject.Pages.Counter"
+            "TagName": "BOOProject.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BOOProject.Pages.Counter",
+          "Common.TypeName": "BOOProject.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -107,35 +107,68 @@
         }
       },
       {
-        "HashCode": 1017778709,
+        "HashCode": -1886201699,
         "Kind": "Components.Component",
-        "Name": "BOOProject.Pages.Index",
+        "Name": "BOOProject.Pages.Counter",
         "AssemblyName": "BOOProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BOOProject.Pages.Index"
+          "Common.TypeName": "BOOProject.Pages.Counter"
         }
       },
       {
-        "HashCode": -1558241323,
+        "HashCode": -1242484749,
         "Kind": "Components.Component",
-        "Name": "BOOProject.Pages.Index",
+        "Name": "BOOProject.Pages.Counter",
         "AssemblyName": "BOOProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BOOProject.Pages.Index"
+            "TagName": "BOOProject.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BOOProject.Pages.Index",
+          "Common.TypeName": "BOOProject.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1245436482,
+        "Kind": "Components.Component",
+        "Name": "BOOProject.Shared.NavMenu",
+        "AssemblyName": "BOOProject",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BOOProject.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -39393167,
+        "Kind": "Components.Component",
+        "Name": "BOOProject.Shared.NavMenu",
+        "AssemblyName": "BOOProject",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BOOProject.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BOOProject.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -285,39 +318,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "BOOProject.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1245436482,
-        "Kind": "Components.Component",
-        "Name": "BOOProject.Shared.NavMenu",
-        "AssemblyName": "BOOProject",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BOOProject.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -39393167,
-        "Kind": "Components.Component",
-        "Name": "BOOProject.Shared.NavMenu",
-        "AssemblyName": "BOOProject",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BOOProject.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BOOProject.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
