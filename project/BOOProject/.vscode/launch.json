@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch and Debug",
+            "type": "blazorwasm",
+            "request": "launch",
+            "url": "https://localhost:44367",
+            "browser": "chrome"
+          }
+    ]
+}

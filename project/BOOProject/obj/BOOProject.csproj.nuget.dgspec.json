@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hadwiiis/Projects/VUT/hadwiger-oop/project/BOOProject/BOOProject.csproj": {}
+  },
+  "projects": {
+    "/Users/hadwiiis/Projects/VUT/hadwiger-oop/project/BOOProject/BOOProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hadwiiis/Projects/VUT/hadwiger-oop/project/BOOProject/BOOProject.csproj",
+        "projectName": "BOOProject",
+        "projectPath": "/Users/hadwiiis/Projects/VUT/hadwiger-oop/project/BOOProject/BOOProject.csproj",
+        "packagesPath": "/Users/hadwiiis/.nuget/packages/",
+        "outputPath": "/Users/hadwiiis/Projects/VUT/hadwiger-oop/project/BOOProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hadwiiis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.15, 5.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
