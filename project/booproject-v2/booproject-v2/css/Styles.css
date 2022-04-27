@@ -1,0 +1,34 @@
+﻿body {
+    
+}
+.addDiv {
+    width: fit-content;
+    align-content: left;
+}
+.indexButton {
+    margin-left: .3%; 
+    margin-bottom: 1%;
+}
+.basicGrid {
+    width: 80%;
+    border: solid 1px black;
+    min-width: 80%;
+    
+}
+.basicRow {
+    border: none;
+    text-align: center;
+}
+.basicHeader {
+    background-color: gray;
+    color: white;
+    border: 0px;
+    
+}
+.basicGrid td {
+    padding: 5px;
+}
+.basicGrid th {
+    padding: 5px;
+}
+

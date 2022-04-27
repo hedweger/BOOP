@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Album" Member="Albums">
+    <Type Name="Album">
+      <Column Name="albumid" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="genre" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="release" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tracksamount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Album_AlbumGroup" Member="AlbumGroups" ThisKey="albumid" OtherKey="albumid" Type="AlbumGroup" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AlbumGroup" Member="AlbumGroups">
+    <Type Name="AlbumGroup">
+      <Column Name="albumid" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="groupid" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Album_AlbumGroup" Member="Album" ThisKey="albumid" OtherKey="albumid" Type="Album" IsForeignKey="true" />
+      <Association Name="Group_AlbumGroup" Member="Group" ThisKey="groupid" OtherKey="groupid" Type="Group" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Group]" Member="Groups">
+    <Type Name="Group">
+      <Column Name="groupid" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="members" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Group_AlbumGroup" Member="AlbumGroups" ThisKey="groupid" OtherKey="groupid" Type="AlbumGroup" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Everything" Member="Everythings">
+    <Type Name="Everything">
+      <Column Name="groupid" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="members" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="albumid" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="release" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="genre" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="tracksamount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
