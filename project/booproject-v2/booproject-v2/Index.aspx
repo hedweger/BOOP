@@ -15,6 +15,9 @@
              <asp:Button CssClass="indexButton" ID="AddAlbum" OnClick="AddAlbum_Click" runat="server" Text="Pridat album"/>
             <asp:Button CssClass="indexButton" ID="Edit" OnClick="Edit_Click" runat="server" Text="Editovat"/>
             <br />
+            <asp:Button CssClass="indexButton" ID="WriteCSV" OnClick="WriteCSV_Click" runat="server" Text="Export CSV" />
+            <asp:Button CssClass="indexButton" ID="ReadCSV" OnClick="ReadCSV_Click" runat="server" Text="Import CSV"/>
+            <br />
             <asp:TextBox ID="SearchInput" runat="server"></asp:TextBox>
             <asp:Button CssClass="indexButton" ID="Search" OnClick="Search_Click" runat="server" Text="Vyhledat"/>
             <br />

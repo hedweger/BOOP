@@ -51,6 +51,24 @@ namespace booproject_v2
         protected global::System.Web.UI.WebControls.Button Edit;
 
         /// <summary>
+        /// WriteCSV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button WriteCSV;
+
+        /// <summary>
+        /// ReadCSV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ReadCSV;
+
+        /// <summary>
         /// SearchInput control.
         /// </summary>
         /// <remarks>
