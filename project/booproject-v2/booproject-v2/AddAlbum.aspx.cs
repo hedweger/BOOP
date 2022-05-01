@@ -30,37 +30,47 @@ namespace booproject_v2
         }
         protected void Submit_Click(object sender, EventArgs e)
         {
-            db.Albums.InsertOnSubmit(new Album()
+            var groupcheck = from Group in db.Groups where Group.groupid == groupnameinut.Text select Group;
+            if (groupcheck.Count() > 0)
             {
-                albumid = albumnameinput.Text,
-                genre = genreinput.Text,
-                release = int.Parse(releaseinput.Text),
-                tracksamount = int.Parse(tracksinput.Text)
-            });
-            db.SubmitChanges();
-            TextBox confirm = new TextBox();
-            confirm.Text = "Pridano!";
-            confirmalbum.Controls.Add(confirm);
-            var confirmview = from Album in db.Albums
-                              select new
-                              {
-                                  albumname = Album.albumid,
-                                  genre = Album.genre,
-                                  release = Album.release,
-                                  tracksamount = Album.tracksamount,
-                              };
-            GridViewAlbum.DataSource = confirmview;
-            GridViewAlbum.DataBind();
+                db.Albums.InsertOnSubmit(new Album()
+                {
+                    albumid = albumnameinput.Text,
+                    genre = genreinput.Text,
+                    release = int.Parse(releaseinput.Text),
+                    tracksamount = int.Parse(tracksinput.Text)
+                });
+                db.SubmitChanges();
+                TextBox confirm = new TextBox();
+                confirm.Text = "Pridano!";
+                confirmalbum.Controls.Add(confirm);
+                var confirmview = from Album in db.Albums
+                                  select new
+                                  {
+                                      albumname = Album.albumid,
+                                      genre = Album.genre,
+                                      release = Album.release,
+                                      tracksamount = Album.tracksamount,
+                                  };
+                GridViewAlbum.DataSource = confirmview;
+                GridViewAlbum.DataBind();
 
-            db.AlbumGroups.InsertOnSubmit(new AlbumGroup()
-            { 
-                albumid = albumnameinput.Text,
-                groupid = groupnameinut.Text,
-            });
-            db.SubmitChanges();
-            TextBox confirmconn = new TextBox();
-            confirmconn.Text = "Prirazeno ke skupine";
-            confirmconnection.Controls.Add(confirmconn);
+                db.AlbumGroups.InsertOnSubmit(new AlbumGroup()
+                {
+                    albumid = albumnameinput.Text,
+                    groupid = groupnameinut.Text,
+                });
+                db.SubmitChanges();
+                TextBox confirmconn = new TextBox();
+                confirmconn.Text = "Prirazeno ke skupine";
+                confirmconnection.Controls.Add(confirmconn);
+            }
+            else
+            {
+                TextBox nogroup = new TextBox();
+                nogroup.Text = "Skupina neexistuje";
+                confirmconnection.Controls.Add(nogroup);
+            }
         }
     }
 }

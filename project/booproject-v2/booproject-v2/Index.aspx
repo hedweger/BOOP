@@ -28,7 +28,7 @@
             </asp:GridView>
             <br />
             <hr />
-            <p>Výpis všech hodnot v databázi: </p>
+            <p>Výpis všech hodnot v databázi (ukazují se jenom skupinz které mají přiřazeno aspon jedno album): </p>
             <asp:GridView GridLines="horizontal" CssClass="basicGrid" ID="GridViewAll" runat="server" AllowPaging="true" HorizontalAlign="Center">
                <RowStyle CssClass="basicRow" />
                 <HeaderStyle CssClass="basicHeader"/>
